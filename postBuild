@@ -1,0 +1,7 @@
+set -ex
+
+wget -c https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip
+mkdir shell-lesson-data
+cd shell-lesson-data
+unzip ../shell-lesson-data.zip
+cd ..
