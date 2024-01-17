@@ -1,7 +1,12 @@
 set -ex
 
-wget -c https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip
-unzip shell-lesson-data.zip
+# oops, wrong lesson
+#wget -c https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip
+#unzip shell-lesson-data.zip
+
+# this one
+wget -c -O shell_data.tar.gz https://figshare.com/ndownloader/files/14417834
+tar xf shell_data.tar.gz
 
 wget -c https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip
 unzip python-novice-gapminder-data.zip
