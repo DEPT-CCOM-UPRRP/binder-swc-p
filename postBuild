@@ -1,19 +1,19 @@
 set -ex
 
 # oops, wrong lesson
-#wget -c https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip
-#unzip shell-lesson-data.zip
+wget -c https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip
+unzip shell-lesson-data.zip
 
 # this one
-wget -c -O shell_data.tar.gz https://figshare.com/ndownloader/files/14417834
-tar xf shell_data.tar.gz
+#wget -c -O shell_data.tar.gz https://figshare.com/ndownloader/files/14417834
+#tar xf shell_data.tar.gz
 
 wget -c https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip
 unzip python-novice-gapminder-data.zip
 
 # Python image processing data
-wget -c -O 19260677.zip https://figshare.com/ndownloader/articles/19260677/versions/3
-mkdir -p data
-cd data
-unzip ../19260677.zip
-cd
+#wget -c -O 19260677.zip https://figshare.com/ndownloader/articles/19260677/versions/3
+#mkdir -p data
+#cd data
+#unzip ../19260677.zip
+#cd
