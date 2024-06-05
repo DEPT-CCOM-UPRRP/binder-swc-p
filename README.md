@@ -1,5 +1,5 @@
-# Special topics in biology
+# Software Carpentry python-novice-gapminder workshop
 
-Virtual machine for image processing workshop for Spring 2024 Topics in Biology course.
+Virtual machines for Software Carpentry workshop.
 
-Launch your own virtual machine with [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/humberto-ortiz/binder-topicos/HEAD)
+Launch your own virtual machine with [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DEPT-CCOM-UPRRP/binder-swc-p/HEAD)
